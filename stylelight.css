@@ -1,0 +1,57 @@
+* {
+  background-color: white;
+  color: black;
+}
+ body {
+   width: 60%;
+   padding-left: 10px;
+   margin: 0 150px 100px 200px;
+   font-size: 25px;
+   font-family: "Montserrat", sans-serif;
+ }
+ form {
+   padding: none;}
+
+.switch{
+  position: absolute;
+  top: 0px;
+  right: 400px;
+}
+
+h1{
+  color: blue;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+ span , .register{
+   color: red;
+ }
+.logo{
+  display: inline;
+}
+ .form{
+   box-shadow: 10px 10px #B89800;
+ }
+.new-account{
+  color: brown;
+}
+
+
+@media screen and (max-width:760px) {
+  body:60%
+
+  .switch{
+    position: absolute;
+    top: 0px;
+    right: 200px
+}
+
+@media screen and (max-width:480px) {
+  body:50%
+
+  .switch{
+    position: absolute;
+    top: 0px;
+    right: 50px
